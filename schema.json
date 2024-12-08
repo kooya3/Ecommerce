@@ -128,3 +128,10 @@
             "value": "sanity.imageDimensions"
           }
         },
+        "height": {
+          "type": "objectAttribute",
+          "value": {
+            "type": "number"
+          },
+          "optional": true
+        },
