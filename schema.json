@@ -175,3 +175,9 @@
           "type": "string"
         }
       },
+      "_updatedAt": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        }
+      },
