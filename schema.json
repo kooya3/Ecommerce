@@ -162,3 +162,10 @@
           "type": "string"
         }
       },
+      "_type": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string",
+          "value": "sanity.fileAsset"
+        }
+      },
