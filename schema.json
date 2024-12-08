@@ -181,3 +181,9 @@
           "type": "string"
         }
       },
+      "_rev": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        }
+      },
