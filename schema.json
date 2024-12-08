@@ -11,179 +11,186 @@
               "type": "string",
               "value": "sanity.imagePaletteSwatch"
             }
-        },
-        "background": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "string"
           },
-          "optional": true
-        },
-        "foreground": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "string"
+          "background": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "string"
+            },
+            "optional": true
           },
-          "optional": true
-        },
-        "population": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "number"
+          "foreground": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "string"
+            },
+            "optional": true
           },
-          "optional": true
-        },
-        "title": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "string"
+          "population": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "number"
+            },
+            "optional": true
           },
-          "optional": true
+          "title": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "string"
+            },
+            "optional": true
+          }
         }
       }
-    }
-  },
-  {
-    "name": "sanity.imagePalette",
-    "type": "type",
-    "value": {
-      "type": "object",
+    },
+    {
+      "name": "sanity.imagePalette",
+      "type": "type",
+      "value": {
+        "type": "object",
+        "attributes": {
+          "_type": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "string",
+              "value": "sanity.imagePalette"
+            }
+          },
+          "darkMuted": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          },
+          "lightVibrant": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          },
+          "darkVibrant": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          },
+          "vibrant": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          },
+          "dominant": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          },
+          "lightMuted": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          },
+          "muted": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "inline",
+              "name": "sanity.imagePaletteSwatch"
+            },
+            "optional": true
+          }
+        }
+      }
+    },
+    {
+      "name": "sanity.imageDimensions",
+      "type": "type",
+      "value": {
+        "type": "object",
+        "attributes": {
+          "_type": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "string",
+              "value": "sanity.imageDimensions"
+            }
+          },
+          "height": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "number"
+            },
+            "optional": true
+          },
+          "width": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "number"
+            },
+            "optional": true
+          },
+          "aspectRatio": {
+            "type": "objectAttribute",
+            "value": {
+              "type": "number"
+            },
+            "optional": true
+          }
+        }
+      }
+    },
+    {
+      "name": "sanity.fileAsset",
+      "type": "document",
       "attributes": {
+        "_id": {
+          "type": "objectAttribute",
+          "value": {
+            "type": "string"
+          }
+        },
         "_type": {
           "type": "objectAttribute",
           "value": {
             "type": "string",
-            "value": "sanity.imagePalette"
+            "value": "sanity.fileAsset"
           }
         },
-        "darkMuted": {
+        "_createdAt": {
           "type": "objectAttribute",
           "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        },
-        "lightVibrant": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        },
-        "darkVibrant": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        },
-        "vibrant": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        },
-        "dominant": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        },
-        "lightMuted": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        },
-        "muted": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "inline",
-            "name": "sanity.imagePaletteSwatch"
-          },
-          "optional": true
-        }
-      }
-    }
-  },
-  {
-    "name": "sanity.imageDimensions",
-    "type": "type",
-    "value": {
-      "type": "object",
-      "attributes": {
-        "_type": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "string",
-            "value": "sanity.imageDimensions"
+            "type": "string"
           }
         },
-        "height": {
+        "_updatedAt": {
           "type": "objectAttribute",
           "value": {
-            "type": "number"
+            "type": "string"
+          }
+        },
+        "_rev": {
+          "type": "objectAttribute",
+          "value": {
+            "type": "string"
+          }
+        },
+        "originalFilename": {
+          "type": "objectAttribute",
+          "value": {
+            "type": "string"
           },
           "optional": true
         },
-        "width": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "number"
-          },
-          "optional": true
-        },
-        "aspectRatio": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "number"
-          },
-          "optional": true
-        }
-      }
-    }
-  },
-  {
-    "name": "sanity.fileAsset",
-    "type": "document",
-    "attributes": {
-      "_id": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
-      "_type": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string",
-          "value": "sanity.fileAsset"
-        }
-      },
-      "_createdAt": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
-      "_updatedAt": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
-      "_rev": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
