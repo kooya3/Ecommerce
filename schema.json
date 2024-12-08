@@ -56,3 +56,11 @@
             "value": "sanity.imagePalette"
           }
         },
+        "darkMuted": {
+          "type": "objectAttribute",
+          "value": {
+            "type": "inline",
+            "name": "sanity.imagePaletteSwatch"
+          },
+          "optional": true
+        },
