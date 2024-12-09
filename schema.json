@@ -243,3 +243,10 @@
         },
         "optional": true
       },
+      "size": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "number"
+        },
+        "optional": true
+      },
