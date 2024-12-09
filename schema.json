@@ -236,3 +236,10 @@
         },
         "optional": true
       },
+      "mimeType": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
