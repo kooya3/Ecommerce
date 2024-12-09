@@ -222,3 +222,10 @@
         },
         "optional": true
       },
+      "sha1hash": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
