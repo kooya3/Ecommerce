@@ -325,3 +325,20 @@
       }
     }
   },
+  {
+    "name": "sale",
+    "type": "document",
+    "attributes": {
+      "_id": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        }
+      },
+      "_type": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string",
+          "value": "sale"
+        }
+      },
