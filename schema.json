@@ -768,3 +768,18 @@
                             }
                           }
                         },
+                        "rest": {
+                          "type": "object",
+                          "attributes": {
+                            "_key": {
+                              "type": "objectAttribute",
+                              "value": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "optional": true
+                  },
